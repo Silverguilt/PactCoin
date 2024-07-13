@@ -1,18 +1,10 @@
 ## PactCoin
 
-PactCoin is a blockchain-based project developed as a school assignment. Obscoin symbolizes commitment to transparency and accountability.
-
-Obscoin allows users to create transactions with ease, retrieve transaction details, and add new blocks to the blockchain seamlessly. The integration of PubNub ensures that the blockchain remains synchronized across all nodes, maintaining consistency and reliability.
-
-Join us as we delve into the world of OBScoin, where every transaction tells a story, and every block holds the promise of a brighter future. Welcome to the beginning of a remarkable journey. Welcome to Obscoin!
+PactCoin is a ..
 
 ## Features
 
-- Create Transactions: Add new transactions to the blockchain.
-- Get Transaction by ID: Retrieve details of a specific transaction using its unique identifier.
-- Add Blocks: Mine and add new blocks to the blockchain.
-- List Blocks: List all blocks in the blockchain.
-- Sync Blockchain: Synchronize the blockchain across different nodes using PubNub.
+- ..
 
 ## Packages
 
