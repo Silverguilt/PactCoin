@@ -1,6 +1,6 @@
 ## PactCoin
 
-Obscoin is a blockchain-based project developed as a school assignment. Obscoin symbolizes commitment to transparency and accountability.
+PactCoin is a blockchain-based project developed as a school assignment. Obscoin symbolizes commitment to transparency and accountability.
 
 Obscoin allows users to create transactions with ease, retrieve transaction details, and add new blocks to the blockchain seamlessly. The integration of PubNub ensures that the blockchain remains synchronized across all nodes, maintaining consistency and reliability.
 
