@@ -1,0 +1,278 @@
+/* App.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+#root {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+/* General Layout */
+.container {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 20px;
+  overflow-wrap: break-word; /* Prevent text from overflowing */
+}
+
+/* Transaction Header */
+.tx-header {
+  color: #444;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.transactions-wrapper {
+  color: #000;
+}
+
+.transactions-wrapper p {
+  color: #666;
+}
+
+/* Search Input */
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Slogan */
+.slogan {
+  font-size: 1.2rem;
+  color: #666;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Logo */
+.logo {
+  height: 50px;
+  transition: transform 300ms;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+/* Blocks */
+.block {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow-wrap: break-word; /* Prevent text from overflowing */
+}
+
+.block:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.block h3 {
+  font-size: 1.4em;
+  color: #333;
+}
+
+.block p {
+  font-size: 1em;
+  color: #555;
+}
+
+/* Transaction List */
+.transaction-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.transaction-list li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow-wrap: break-word; /* Prevent text from overflowing */
+}
+
+.transaction-list li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Pending Transactions */
+.pending-transactions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pending-transactions li {
+  background: #ffe0b2;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow-wrap: break-word; /* Prevent text from overflowing */
+}
+
+.pending-transactions li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Form Wrapper */
+.form-wrapper {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow-wrap: break-word; /* Prevent text from overflowing */
+}
+
+.tx-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.tx-form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #444;
+}
+
+.tx-form input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+@media (max-width: 768px) {
+  .form-wrapper,
+  .block {
+    max-width: 100%;
+    padding: 15px;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.dropdown-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.dropdown-wrapper p {
+  color: #444;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.dropdown {
+  width: 100%;
+  max-width: 300px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.block,
+.pending-transactions li {
+  width: 95vw;
+  word-wrap: break-word;
+}
+
+.transactions-wrapper {
+  padding: 0 10px;
+}
+
+/* Media Queries for Mobile */
+
+@media (max-width: 600px) {
+  #root {
+    padding: 0 10px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    /* width: 100%; */
+    align-items: center;
+  }
+
+  .navbar ul li {
+    margin-left: 0;
+    /* width: 100%; */
+    margin: 1rem 0;
+  }
+
+  .navbar ul li a {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+  }
+
+  .search-input,
+  .dropdown {
+    max-width: 100%;
+  }
+
+  .form-wrapper,
+  .block {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .block,
+  .pending-transactions li {
+    width: 95vw;
+    word-wrap: break-word;
+  }
+
+  .transactions-wrapper {
+    padding: 0 10px;
+  }
+}

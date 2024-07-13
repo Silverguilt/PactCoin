@@ -1,0 +1,50 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+  background-color: #666;
+}
+
+/* Media Queries for Mobile */
+
+@media (max-width: 600px) {
+  .navbar ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar ul li {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .navbar ul li a {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+  }
+}
