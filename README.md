@@ -1,4 +1,4 @@
-## Obscoin
+## PactCoin
 
 Obscoin is a blockchain-based project developed as a school assignment. Obscoin symbolizes commitment to transparency and accountability.
 
@@ -35,17 +35,21 @@ To install and run the application locally, follow these steps:
    ```
 
 2. Install dependencies
+
    - Backend
+
      ```bash
       cd server
       npm install
 
      ```
+
    - Frontend
      ```bash
      cd client
      npm install
      ```
+
 3. Configure Environment Variables
 
 - Navigate to the config directory and locate the .env file.
@@ -62,11 +66,13 @@ To install and run the application locally, follow these steps:
       ```
 
     - To run backend server with dynamic port
+
       ```bash
       cd server
       npm run dev-node
 
       ```
+
     - To run frontend
       ```bash
       cd client
