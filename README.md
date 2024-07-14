@@ -30,7 +30,7 @@ PactCoin is a blockchain application that implements a simple cryptocurrency sys
   - nodemon
   - pubnub
 
-  - Frontend:
+- Frontend:
   - react
   - react-dom
   - react-router-dom
