@@ -44,14 +44,6 @@ export const addBlock = (req, res) => {
   try {
     const minerAddress = req.body.minerAddress || MINER_ADDRESS;
 
-    // Reward the miner with a new transaction
-    // const rewardTransaction = {
-    //   amount: REWARD,
-    //   sender: 'system',
-    //   recipient: minerAddress,
-    // };
-    // blockchain.addNewTx(rewardTransaction);
-
     // Add the block to the chain
     const newBlock = blockchain.addBlock();
 

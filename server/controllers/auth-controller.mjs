@@ -62,7 +62,6 @@ export const login = async (req, res) => {
       user: {
         id: user._id,
         email: user.email,
-        // Add any other user fields you want to include
       },
     });
   } catch (err) {
